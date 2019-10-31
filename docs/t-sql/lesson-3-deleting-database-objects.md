@@ -66,10 +66,10 @@ Use the `REVOKE` statement to remove execute permission for `Mary` on the stored
 
 ## Delete table
   
-1. Use the `DELETE` statement to remove all rows from the `Products` table:  
+1. Use the `TRUNCATE TABLE` statement to remove all rows from the `Products` table:  
   
     ```sql  
-    DELETE FROM Products;  
+    TRUNCATE TABLE Products;  
     GO  
     ```  
   
